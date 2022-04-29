@@ -15,11 +15,15 @@ require 'ons-numbers'
 Numbers.currency(1234.56) # => "£1,234.56"
 Numbers.grouped(1234567) # => "1,234,567"
 Numbers.percentage(75, 100) # => "75.0%"
+```
 
+## Testing
+
+```
+rake test
 ```
 
 ## Licence
-
 This library is licensed under the MIT licence. Full licence text is available in [LICENCE](LICENCE).
 
 ## Copyright
